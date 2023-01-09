@@ -11,7 +11,7 @@ import (
         "net/http"
         "time"
 
-        "github.com/adjust/rmq"
+	    "github.com/adjust/rmq/v5"
         "github.com/pffreitas/rmqprom"
         "github.com/prometheus/client_golang/prometheus/promhttp"
 )
